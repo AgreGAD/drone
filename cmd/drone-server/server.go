@@ -19,7 +19,7 @@ import (
 	"golang.org/x/sync/errgroup"
 
 	"github.com/cncd/logging"
-	"github.com/cncd/pipeline/pipeline/rpc/proto"
+	"github.com/AgreGAD/pipeline/pipeline/rpc/proto"
 	"github.com/cncd/pubsub"
 	"github.com/drone/drone/plugins/sender"
 	"github.com/drone/drone/remote"

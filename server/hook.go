@@ -22,13 +22,13 @@ import (
 	"github.com/drone/drone/store"
 	"github.com/drone/envsubst"
 
-	"github.com/cncd/pipeline/pipeline/backend"
-	"github.com/cncd/pipeline/pipeline/frontend"
-	"github.com/cncd/pipeline/pipeline/frontend/yaml"
-	"github.com/cncd/pipeline/pipeline/frontend/yaml/compiler"
-	"github.com/cncd/pipeline/pipeline/frontend/yaml/linter"
-	"github.com/cncd/pipeline/pipeline/frontend/yaml/matrix"
-	"github.com/cncd/pipeline/pipeline/rpc"
+	"github.com/AgreGAD/pipeline/pipeline/backend"
+	"github.com/AgreGAD/pipeline/pipeline/frontend"
+	"github.com/AgreGAD/pipeline/pipeline/frontend/yaml"
+	"github.com/AgreGAD/pipeline/pipeline/frontend/yaml/compiler"
+	"github.com/AgreGAD/pipeline/pipeline/frontend/yaml/linter"
+	"github.com/AgreGAD/pipeline/pipeline/frontend/yaml/matrix"
+	"github.com/AgreGAD/pipeline/pipeline/rpc"
 	"github.com/cncd/pubsub"
 	"github.com/cncd/queue"
 )
@@ -537,9 +537,8 @@ func (b *builder) Build() ([]*buildItem, error) {
 			compiler.WithSecret(secrets...),
 			compiler.WithPrefix(
 				fmt.Sprintf(
-					"%d_%d",
+					"%d",
 					proc.ID,
-					rand.Int(),
 				),
 			),
 			compiler.WithEnviron(proc.Environ),

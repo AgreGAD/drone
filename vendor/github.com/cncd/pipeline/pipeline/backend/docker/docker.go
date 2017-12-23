@@ -5,7 +5,7 @@ import (
 	"io"
 	"io/ioutil"
 
-	"github.com/cncd/pipeline/pipeline/backend"
+	"github.com/AgreGAD/pipeline/pipeline/backend"
 
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/network"
@@ -174,9 +174,9 @@ func (e *engine) Destroy(conf *backend.Config) error {
 			e.client.ContainerRemove(noContext, step.Name, removeOpts)
 		}
 	}
-	for _, volume := range conf.Volumes {
-		e.client.VolumeRemove(noContext, volume.Name, true)
-	}
+	//for _, volume := range conf.Volumes {
+	//	e.client.VolumeRemove(noContext, volume.Name, true)
+	//}
 	for _, network := range conf.Networks {
 		e.client.NetworkRemove(noContext, network.Name)
 	}
