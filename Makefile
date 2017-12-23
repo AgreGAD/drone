@@ -11,3 +11,7 @@ deps:
 
 build:
 	GOOS=linux GOARCH=amd64 CGO_ENABLED=0 go build -o release/drone-agent github.com/AgreGAD/drone/cmd/drone-agent
+	docker build -f Dockerfile.agent.debian -t agregad/drone-agent .
+
+deploy:
+	docker push agregad/drone-agent

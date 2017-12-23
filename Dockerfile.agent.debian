@@ -1,0 +1,13 @@
+FROM debian
+
+RUN apt-get update; \
+  apt-get install -y ca-certificates; \
+  rm -rf /var/cache/apk/*
+
+ENV GODEBUG=netdns=go
+ADD release/drone-agent /bin/
+
+EXPOSE 3000
+HEALTHCHECK CMD ["/bin/drone-agent", "ping"]
+
+ENTRYPOINT ["/bin/drone-agent"]
