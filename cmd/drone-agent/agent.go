@@ -139,6 +139,8 @@ type runner struct {
 func (r *runner) run(ctx context.Context) error {
 	log.Debug().
 		Msg("request next execution")
+	log.Debug().
+		Msg("test")
 
 	meta, _ := metadata.FromOutgoingContext(ctx)
 	ctxmeta := metadata.NewOutgoingContext(context.Background(), meta)
