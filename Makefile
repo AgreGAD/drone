@@ -1,4 +1,4 @@
-all: deps build
+all: deps build deploy
 
 deps:
 	go get -u github.com/drone/drone-ui/dist
