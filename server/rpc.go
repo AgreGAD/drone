@@ -15,8 +15,8 @@ import (
 
 	"github.com/Sirupsen/logrus"
 	"github.com/cncd/logging"
-	"github.com/AgreGAD/pipeline/pipeline/rpc"
-	"github.com/AgreGAD/pipeline/pipeline/rpc/proto"
+	"github.com/cncd/pipeline/pipeline/rpc"
+	"github.com/cncd/pipeline/pipeline/rpc/proto"
 	"github.com/cncd/pubsub"
 	"github.com/cncd/queue"
 

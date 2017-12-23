@@ -3,7 +3,7 @@ package pipeline
 import (
 	"context"
 
-	"github.com/AgreGAD/pipeline/pipeline/backend"
+	"github.com/cncd/pipeline/pipeline/backend"
 )
 
 // Option configures a runtime option.

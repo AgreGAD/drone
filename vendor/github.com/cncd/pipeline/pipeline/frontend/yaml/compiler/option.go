@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/AgreGAD/pipeline/pipeline/frontend"
+	"github.com/cncd/pipeline/pipeline/frontend"
 )
 
 // Option configures a compiler option.

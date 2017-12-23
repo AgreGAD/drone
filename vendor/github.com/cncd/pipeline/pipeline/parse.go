@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/AgreGAD/pipeline/pipeline/backend"
+	"github.com/cncd/pipeline/pipeline/backend"
 )
 
 // Parse parses the pipeline config from an io.Reader.
