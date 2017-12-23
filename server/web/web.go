@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/AgreGAD/drone-ui/dist"
+	"github.com/drone/drone-ui/dist"
 	"github.com/AgreGAD/drone/model"
 	"github.com/AgreGAD/drone/shared/token"
 	"github.com/AgreGAD/drone/version"

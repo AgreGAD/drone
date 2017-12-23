@@ -1,7 +1,7 @@
 all: deps build
 
 deps:
-	go get -u github.com/AgreGAD/drone-ui/dist
+	go get -u github.com/drone/drone-ui/dist
 	go get -u golang.org/x/tools/cmd/cover
 	go get -u golang.org/x/net/context
 	go get -u golang.org/x/net/context/ctxhttp
