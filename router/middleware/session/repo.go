@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/drone/drone/model"
-	"github.com/drone/drone/remote"
-	"github.com/drone/drone/store"
+	"github.com/AgreGAD/drone/model"
+	"github.com/AgreGAD/drone/remote"
+	"github.com/AgreGAD/drone/store"
 
 	log "github.com/Sirupsen/logrus"
 	"github.com/gin-gonic/gin"

@@ -8,7 +8,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/drone/drone/model"
+	"github.com/AgreGAD/drone/model"
 )
 
 const (

@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/drone/drone/model"
-	"github.com/drone/drone/remote/coding/fixtures"
+	"github.com/AgreGAD/drone/model"
+	"github.com/AgreGAD/drone/remote/coding/fixtures"
 
 	"github.com/franela/goblin"
 )

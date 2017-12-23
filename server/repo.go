@@ -9,12 +9,12 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/gorilla/securecookie"
 
-	"github.com/drone/drone/model"
-	"github.com/drone/drone/remote"
-	"github.com/drone/drone/router/middleware/session"
-	"github.com/drone/drone/shared/httputil"
-	"github.com/drone/drone/shared/token"
-	"github.com/drone/drone/store"
+	"github.com/AgreGAD/drone/model"
+	"github.com/AgreGAD/drone/remote"
+	"github.com/AgreGAD/drone/router/middleware/session"
+	"github.com/AgreGAD/drone/shared/httputil"
+	"github.com/AgreGAD/drone/shared/token"
+	"github.com/AgreGAD/drone/store"
 )
 
 func PostRepo(c *gin.Context) {

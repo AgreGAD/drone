@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/drone/drone/remote/gitlab/client"
+	"github.com/AgreGAD/drone/remote/gitlab/client"
 )
 
 const (

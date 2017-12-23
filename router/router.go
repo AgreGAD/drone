@@ -6,13 +6,13 @@ import (
 	"github.com/dimfeld/httptreemux"
 	"github.com/gin-gonic/gin"
 
-	"github.com/drone/drone/router/middleware/header"
-	"github.com/drone/drone/router/middleware/session"
-	"github.com/drone/drone/router/middleware/token"
-	"github.com/drone/drone/server"
-	"github.com/drone/drone/server/debug"
-	"github.com/drone/drone/server/metrics"
-	"github.com/drone/drone/server/web"
+	"github.com/AgreGAD/drone/router/middleware/header"
+	"github.com/AgreGAD/drone/router/middleware/session"
+	"github.com/AgreGAD/drone/router/middleware/token"
+	"github.com/AgreGAD/drone/server"
+	"github.com/AgreGAD/drone/server/debug"
+	"github.com/AgreGAD/drone/server/metrics"
+	"github.com/AgreGAD/drone/server/web"
 )
 
 // Load loads the router

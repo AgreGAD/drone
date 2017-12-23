@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/drone/drone/model"
-	"github.com/drone/drone/store/datastore/sql"
+	"github.com/AgreGAD/drone/model"
+	"github.com/AgreGAD/drone/store/datastore/sql"
 	"github.com/russross/meddler"
 )
 

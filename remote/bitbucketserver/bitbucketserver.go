@@ -14,9 +14,9 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/drone/drone/model"
-	"github.com/drone/drone/remote"
-	"github.com/drone/drone/remote/bitbucketserver/internal"
+	"github.com/AgreGAD/drone/model"
+	"github.com/AgreGAD/drone/remote"
+	"github.com/AgreGAD/drone/remote/bitbucketserver/internal"
 	"github.com/mrjones/oauth"
 )
 

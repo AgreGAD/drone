@@ -6,8 +6,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/drone/drone/model"
-	"github.com/drone/drone/remote/bitbucket/internal"
+	"github.com/AgreGAD/drone/model"
+	"github.com/AgreGAD/drone/remote/bitbucket/internal"
 
 	"golang.org/x/oauth2"
 )

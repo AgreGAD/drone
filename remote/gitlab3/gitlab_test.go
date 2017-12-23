@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/drone/drone/model"
-	"github.com/drone/drone/remote/gitlab3/testdata"
+	"github.com/AgreGAD/drone/model"
+	"github.com/AgreGAD/drone/remote/gitlab3/testdata"
 	"github.com/franela/goblin"
 )
 

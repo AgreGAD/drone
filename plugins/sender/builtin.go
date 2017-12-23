@@ -1,7 +1,7 @@
 package sender
 
 import (
-	"github.com/drone/drone/model"
+	"github.com/AgreGAD/drone/model"
 )
 
 type builtin struct {

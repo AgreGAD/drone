@@ -6,9 +6,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/drone/drone/model"
-	"github.com/drone/drone/remote/bitbucket/fixtures"
-	"github.com/drone/drone/remote/bitbucket/internal"
+	"github.com/AgreGAD/drone/model"
+	"github.com/AgreGAD/drone/remote/bitbucket/fixtures"
+	"github.com/AgreGAD/drone/remote/bitbucket/internal"
 
 	"github.com/franela/goblin"
 	"github.com/gin-gonic/gin"

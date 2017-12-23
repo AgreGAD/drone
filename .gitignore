@@ -5,5 +5,8 @@ drone/drone
 .env
 extras/
 release/
+src/
+pkg/
+bin/
 
 server/swagger/files/*.json

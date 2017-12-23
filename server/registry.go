@@ -3,8 +3,8 @@ package server
 import (
 	"net/http"
 
-	"github.com/drone/drone/model"
-	"github.com/drone/drone/router/middleware/session"
+	"github.com/AgreGAD/drone/model"
+	"github.com/AgreGAD/drone/router/middleware/session"
 
 	"github.com/gin-gonic/gin"
 )
